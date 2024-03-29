@@ -1,0 +1,12 @@
+.title-public{
+    @apply lg:text-14xl sm:text-7xl text-4xl text-white font-bold
+}
+.title-public-large{
+    @apply lg:text-19xl sm:text-10xl text-5xl font-black
+}
+.title-public-small{
+    @apply lg:text-3xl text-md font-bold
+}
+.subtitle-public{
+    @apply text-white lg:text-md text-base-plus text-center
+}

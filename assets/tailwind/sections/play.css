@@ -1,0 +1,27 @@
+.lan-30nama-play-button span {
+    @apply content-['']
+    absolute top-1/2 -translate-y-1/2 start-1/2 translate-x-1/2 bg-natural rounded-full aspect-square;
+    animation: play infinite 3s;
+}
+.lan-30nama-play-button span.first {
+    @apply w-full;
+    animation-delay: 0s
+}
+.lan-30nama-play-button span.second {
+    @apply w-full;
+    animation-delay: 1s
+}
+.lan-30nama-play-button span.third {
+    @apply w-full;
+    animation-delay: 2s
+}
+
+
+@keyframes play {
+    from {
+        @apply w-[100%] opacity-40;
+    }
+    to {
+        @apply w-[170%] opacity-0;
+    }
+}

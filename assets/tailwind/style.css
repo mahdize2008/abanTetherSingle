@@ -1,0 +1,46 @@
+/* GENERIC */
+@import "generic/font.css";
+@import "generic/font-icon.css";
+@import "generic/title-public.css";
+@import "generic/btn.css";
+
+/* SECTIONS */
+@import "sections/play.css";
+@import "sections/shape-main-title.css";
+
+/* section-styles */
+@import "section-styles/styles-apply.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+
+    body {
+        @apply overflow-x-hidden
+    }
+    .lan-30nama  {
+        @apply font-["yekanBakh"] text-right bg-primary text-white;
+        direction: rtl;
+    }
+    .lan-30nama button , .lan-30nama a {
+        @apply cursor-pointer
+    }
+
+}
+
+@layer components {
+    .lan-30nama-py-between-section {
+        @apply lg:py-28 py-20;
+    }
+    .lan-30nama-mb-between-section {
+        @apply lg:mb-28 mb-20
+    }
+}
+
+
+
+
+
+
+

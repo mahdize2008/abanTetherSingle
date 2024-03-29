@@ -1,0 +1,236 @@
+.lan30nama-header {
+    @apply relative
+}
+.lan30nama-header-box {
+    @apply z-10 relative flex flex-wrap items-center justify-between
+}
+.lan30nama-header-box-login {
+    @apply lg:px-8 sm:px-5 border border-solid border-natural/10 rounded-full lg:py-4 max-lg:py-2.5 justify-center items-center flex text-white font-bold lg:text-sm-plus text-sm hover:bg-secondary hover:text-white transition-all max-sm:flex-grow max-sm:ml-2
+}
+.lan30nama-header-box-login i {
+    @apply md:ml-4 md:text-xl text-md max-md:hidden
+}
+.lan30nama-header-box-logo {
+    @apply block max-sm:-order-1 max-sm:w-full max-sm:mb-4
+}
+.lan30nama-header-box-logo img {
+    @apply lg:max-h-[40px] max-h-[30px] max-sm:mx-auto
+}
+.lan30nama-header-box-subscription {
+    @apply lg:px-8 sm:px-5 bg-white rounded-full lg:py-4 max-lg:py-2.5 justify-center items-center flex text-primary font-bold lg:text-sm-plus text-sm hover:bg-secondary hover:text-white transition-all  max-sm:flex-grow
+}
+.lan-30nam-header-shape-1 {
+    @apply -left-[40%] max-w-[628px] absolute -top-1/2 max-lg:hidden
+}
+.lan-30nam-header-shape-2 {
+    @apply -right-[50%] lg:max-w-[750px] max-w-[400px] absolute -top-[300px] max-lg:hidden
+}
+
+
+.lan-30nama-main{
+    @apply relative
+}
+.lan-30nama-main-significant{
+    @apply lan-30nama-mb-between-section lg:pb-20 lg:pt-20
+}
+.lan-30nama-main-significant-shape-1{
+    @apply right-1/2 translate-x-1/2 lg:max-w-[750px] max-w-[400px] absolute -translate-y-1/2 top-1/2 max-lg:hidden
+}
+.lan-30nama-main-significant-shape-2{
+    @apply -left-[100px] lg:max-w-[750px] max-w-[400px] absolute top-[90px] max-lg:hidden
+}
+.lan-30nama-main-significant-shape-3{
+    @apply bg-primary-lighter-alpha w-10 h-10 rounded-xl absolute right-4 top-3/4 translate-y-1/2 max-lg:hidden
+}
+.lan-30nama-main-significant-shape-4{
+    @apply bg-primary-lighter-alpha w-6 h-6 rounded-lg absolute -right-[160px] top-0 translate-y-1/2 max-lg:hidden
+}
+.lan-30nama-main-significant-shape-5{
+    @apply bg-primary-lighter-alpha w-6 h-6 rounded-lg absolute -left-[160px] top-[60px] translate-y-full max-lg:hidden
+}
+.lan-30nama-main-significant-shape-6{
+    @apply border-primary-lighter-alpha border-[3px] w-11 h-11 rounded-lg absolute left-4 top-1/2 max-lg:hidden
+}
+.lan-30nama-main-significant-img-1{
+    @apply shape-main-title shape-main-title-1
+}
+.lan-30nama-main-significant-img-2{
+    @apply shape-main-title shape-main-title-2
+}
+.lan-30nama-main-significant-img-3{
+    @apply shape-main-title shape-main-title-3
+}
+.lan-30nama-main-significant-img-4{
+    @apply shape-main-title shape-main-title-4
+}
+.lan-30nama-main-significant-img-5{
+    @apply shape-main-title shape-main-title-5
+}
+.lan-30nama-main-significant-img-6{
+    @apply shape-main-title shape-main-title-6
+}
+.lan-30nama-main-significant-img-7{
+    @apply shape-main-title shape-main-title-7
+}
+.lan-30nama-main-significant-img-8{
+    @apply shape-main-title shape-main-title-8
+}
+
+.lan-30nama-main-significant-box{
+    @apply relative z-10
+}
+.lan-30nama-main-significant-box-header-title{
+    @apply title-public title-public-large text-center lg:mb-3
+}
+.lan-30nama-main-significant-box-subtitle{
+    @apply title-public flex max-sm:flex-col items-center justify-center lg:mb-5 mb-4
+}
+.lan-30nama-main-significant-box-subtitle i{
+    @apply text-danger lg:text-19xl text-10xl sm:ml-7 max-sm:mb-2
+}
+.lan-30nama-main-significant-box-subtitle-logo{
+    @apply lg:max-w-[210px] max-w-[150px] sm:ml-7 max-sm:mb-2
+}
+.lan-30nama-main-significant-box-text{
+    @apply subtitle-public lg:mb-5 mb-4
+}
+.lan-30nama-main-significant-box-text-bold{
+    @apply mx-1 relative font-bold inline-block max-lg:bg-danger max-lg:px-3 max-lg:py-1 max-lg:rounded-lg
+}
+.lan-30nama-main-significant-box-text-bold img{
+    @apply max-lg:hidden mx-auto
+}
+.lan-30nama-main-significant-box-btn{
+    @apply btn
+}
+
+
+
+.lan-30nama-main-steps-shape-1{
+    @apply right-0 translate-x-1/2 lg:max-w-[750px] max-w-[400px] absolute -translate-y-2/3 top-1/2 max-lg:hidden
+}
+.lan-30nama-main-steps-shape-2{
+    @apply left-0 -translate-x-1/2 lg:max-w-[750px] max-w-[400px] absolute -translate-y-2/3 top-1/2 max-lg:hidden
+}
+.lan-30nama-main-steps-box{
+    @apply z-10 relative
+}
+.lan-30nama-main-steps-box-header-title{
+    @apply title-public title-public-large text-center drop-shadow-title lg:mb-8 mb-5
+}
+.lan-30nama-main-steps-box-filter{
+    @apply lg:-m-3.5 -m-2 flex sm:pb-[50px] lg:mb-10 mb-6 whitespace-nowrap max-sm:overflow-auto
+}
+.lan-30nama-main-steps-box-filter-item{
+    @apply lg:p-3.5 p-2 sm:w-1/2 w-fit
+}
+.lan-30nama-main-steps-box-filter-item-tab{
+    @apply max-sm:flex max-sm:items-center rounded-xl bg-primary-lighter group-[&.active]:bg-secondary lg:py-12 py-4 px-4 cursor-pointer relative
+}
+.lan-30nama-main-steps-box-filter-item-tab i{
+    @apply text-secondary lg:text-22xl sm:text-17xl text-10xl sm:mb-5 mb-1 max-sm:ml-4 text-center group-[&.active]:text-white
+}
+.lan-30nama-main-steps-box-filter-item-tab-shape{
+    @apply lg:h-[50px] h-[40px] absolute top-1/2 right-1/2 translate-x-1/2 -z-10 transition-all max-sm:hidden duration-300 group-[&.active]:top-full
+}
+.lan-30nama-main-steps-box-filter-item-tab-title{
+    @apply title-public title-public-small text-center
+}
+.lan-30nama-main-steps-box-filter-item-tab-subtitle{
+    @apply sm:mb-1.5 max-sm:ml-4 block sm:text-center text-natural text-sm-plus
+}
+
+
+
+.lan-30nama-main-steps-box-text-filter{
+    @apply lg:px-[170px] lg:mb-10 mb-5
+}
+.lan-30nama-main-steps-box-text-filter-item{
+    @apply text-natural lg:text-lg text-base text-center
+}
+.lan-30nama-main-steps-box-btn{
+    @apply btn btn-secondary
+}
+
+
+.lan-30nama-main-main-video-section-shape{
+    @apply left-0  lg:max-w-[750px] max-w-[400px] absolute -translate-y-1/3 -top-1/4 max-lg:hidden
+}
+.lan-30nama-main-main-video-section-box{
+    @apply bg-primary-lighter lg:p-4 p-2.5 rounded-lg relative z-10
+}
+.lan-30nama-main-main-video-section-div{
+    @apply relative
+}
+.lan-30nama-main-main-video-section-div-close{
+    @apply lg:px-4 px-3 lg:py-2 py-1.5 rounded-lg bg-secondary text-white lg:text-sm text-xs font-semibold absolute lg:top-4 top-2 lg:right-4 right-2 transition-all hover:bg-primary z-10 cursor-pointer
+}
+.lan-30nama-main-main-video-section-div-video{
+    @apply aspect-video w-full rounded-lg
+}
+.lan-30nama-main-main-video-section-div-video-cover{
+    @apply absolute top-0 right-0 w-full h-full bg-cover bg-center rounded-lg overflow-hidden z-20
+}
+.lan-30nama-main-main-video-section-div-video-cover-box{
+    @apply cursor-pointer block lg:w-16 w-12 lg:h-16 h-12 absolute top-1/2 right-1/2 translate-x-1/2 -translate-y-1/2
+}
+.lan-30nama-main-main-video-section-div-video-cover-box div{
+    @apply bg-play w-full h-full rounded-full flex items-center justify-center relative z-10
+}
+.lan-30nama-main-main-video-section-div-video-cover-box div i{
+    @apply text-white text-md font-bold
+}
+
+
+.lan-30nama-main-question-shape-1{
+    @apply left-0 -translate-x-1/2 lg:max-w-[750px] max-w-[400px] absolute translate-y-1/2 bottom-0 max-lg:hidden
+}
+
+.lan-30nama-main-question-shape-2{
+    @apply right-0 translate-x-1/2 lg:max-w-[750px] max-w-[400px] absolute -translate-y-1/2 top-1/2 max-lg:hidden
+}
+.lan-30nama-main-question-box{
+    @apply relative z-10
+}
+.lan-30nama-main-question-box-header-section{
+    @apply title-public title-public-large text-center drop-shadow-title lg:mb-8 mb-5
+}
+.lan-30nama-main-question-box-accordion{
+    @apply bg-primary-lighter rounded-xl mb-2.5 last:mb-0
+}
+.lan-30nama-main-question-box-accordion-header{
+    @apply lg:p-7 p-4 flex items-center text-md font-medium cursor-pointer justify-between
+}
+.lan-30nama-main-question-box-accordion-header-icon{
+    @apply text-white text-2xl transition-all group-[&.active]:text-secondary font-bold mr-2
+}
+.lan-30nama-main-question-box-accordion-body{
+    @apply lg:p-7 p-4 !pt-0 text-natural text-sm-plus
+}
+
+
+
+.lan-30nama-footer-text{
+    @apply lg:w-1/3 md:w-1/2 w-full max-md:text-center max-md:mb-4 text-natural-alpha text-sm-plus
+}
+.lan-30nama-footer-logo{
+    @apply lg:w-1/3 w-full max-lg:-order-1 max-lg:mb-6
+}
+.lan-30nama-footer-logo img{
+    @apply lg:max-h-[40px] max-h-[30px] mx-auto
+}
+.lan-30nama-footer-social-media{
+    @apply lg:w-1/3 md:w-1/2 w-full flex max-md:justify-center items-center justify-end -m-2
+}
+.lan-30nama-footer-social-media-item{
+    @apply p-2
+}
+.lan-30nama-footer-social-media-item-box{
+    @apply bg-primary-lighter rounded-full w-14 h-14 flex items-center justify-center
+}
+.lan-30nama-footer-social-media-item-link{
+    @apply rounded-full bg-natural-betha w-10 h-10 flex items-center justify-center hover:bg-secondary transition-all
+}
+.lan-30nama-footer-social-media-item-link i{
+    @apply text-sm-plus
+}

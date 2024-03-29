@@ -1,0 +1,18 @@
+.btn{
+    @apply text-white bg-danger text-md flex items-center lg:p-3.5 p-2.5 shadow-btn lg:pr-10 pr-8 rounded-full w-fit mx-auto font-bold transition-all duration-300
+}
+.btn-secondary{
+    @apply !shadow-btn-secondary !bg-white !text-secondary 
+}
+.btn:hover{
+    box-shadow: 0 0 0;
+}
+.btn-secondary:hover{
+    box-shadow: 0 0 0 !important;
+}
+.btn i{
+    @apply text-4xl text-white lg:mr-9 mr-7
+}
+.btn-secondary i{
+    @apply !text-secondary
+}
